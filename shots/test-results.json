@@ -1,0 +1,263 @@
+[
+ [
+  "8 roster cards",
+  true,
+  8
+ ],
+ [
+  "title copy",
+  true,
+  ""
+ ],
+ [
+  "credit line",
+  true,
+  ""
+ ],
+ [
+  "arrows browse + wrap",
+  true,
+  "WALE"
+ ],
+ [
+  "tab moves focus to MODE",
+  true,
+  "optMode"
+ ],
+ [
+  "mode toggles to 2P",
+  true,
+  "2P LOCAL \u21bb"
+ ],
+ [
+  "mode toggles back to CPU",
+  true,
+  "VS CPU \u21bb"
+ ],
+ [
+  "tab reaches LOCK IN",
+  true,
+  "btnLock"
+ ],
+ [
+  "rival step",
+  true,
+  ""
+ ],
+ [
+  "P1 LOCKED + CPU SELECTED tags",
+  true,
+  [
+   "P1 LOCKED",
+   "CPU SELECTED"
+  ]
+ ],
+ [
+  "FIGHT button",
+  true,
+  ""
+ ],
+ [
+  "Esc goes back to fighter pick",
+  true,
+  ""
+ ],
+ [
+  "HUD visible",
+  true,
+  ""
+ ],
+ [
+  "ROUND 01 splash",
+  true,
+  ""
+ ],
+ [
+  "FIGHT! splash",
+  true,
+  ""
+ ],
+ [
+  "D moves right",
+  true,
+  -0.8850000000000025
+ ],
+ [
+  "A moves left",
+  true,
+  -2.892000000000003
+ ],
+ [
+  "W jumps",
+  true,
+  0.9866666666666664
+ ],
+ [
+  "S crouches",
+  true,
+  true
+ ],
+ [
+  "F light attack",
+  true,
+  "light"
+ ],
+ [
+  "G heavy attack",
+  true,
+  "heavy"
+ ],
+ [
+  "H parry",
+  true,
+  "parry"
+ ],
+ [
+  "R feint",
+  true,
+  "feint"
+ ],
+ [
+  "T signature (hype < 100)",
+  true,
+  "FULL SELF-DRIVING"
+ ],
+ [
+  "E hold charges",
+  true,
+  0.485244602891662
+ ],
+ [
+  "E release thrusts",
+  true,
+  "CHARGED THRUST"
+ ],
+ [
+  "input buffered during a move",
+  true,
+  ""
+ ],
+ [
+  "PERFECT PARRY on timing",
+  true,
+  "[True] callout=PERFECT PARRY"
+ ],
+ [
+  "special pad shows FINISHER at full hype",
+  true,
+  ""
+ ],
+ [
+  "T finisher (hype = 100)",
+  true,
+  "ONE-WAY TICKET TO MARS"
+ ],
+ [
+  "P pauses",
+  true,
+  ""
+ ],
+ [
+  "timer frozen while paused",
+  true,
+  ""
+ ],
+ [
+  "P resumes",
+  true,
+  ""
+ ],
+ [
+  "fight HUD shot taken mid-exchange",
+  true,
+  "with callout"
+ ],
+ [
+  "RING OUT splash",
+  true,
+  "JENSEN TAKES THE ROUND"
+ ],
+ [
+  "best of three ends at 2 wins",
+  true,
+  [
+   0,
+   2
+  ]
+ ],
+ [
+  "winner splash",
+  true,
+  "JENSEN WINS"
+ ],
+ [
+  "RUN IT BACK visible",
+  true,
+  ""
+ ],
+ [
+  "round pips filled",
+  true,
+  2
+ ],
+ [
+  "share text copied",
+  true,
+  "Jensen just ring-outed me off a roof. Avenge me \ud83d\ude24 HARD COUNTER: CEO EDITION http://127.0.0.1:4173/"
+ ],
+ [
+  "RUN IT BACK restarts at round 1",
+  true,
+  ""
+ ],
+ [
+  "Esc returns to roster",
+  true,
+  ""
+ ],
+ [
+  "2P HUD label",
+  true,
+  "P2 / JENSEN"
+ ],
+ [
+  "P2 J = light",
+  true,
+  "light"
+ ],
+ [
+  "no console errors (desktop)",
+  true,
+  []
+ ],
+ [
+  "mobile portrait: HEAVY pad",
+  true,
+  "heavy"
+ ],
+ [
+  "mobile portrait: RIGHT pad hold moves",
+  true,
+  "-1.60->-1.15"
+ ],
+ [
+  "no console errors (mobile portrait)",
+  true,
+  []
+ ],
+ [
+  "mobile landscape: HEAVY pad",
+  true,
+  "heavy"
+ ],
+ [
+  "mobile landscape: RIGHT pad hold moves",
+  true,
+  "-1.60->-1.15"
+ ],
+ [
+  "no console errors (mobile landscape)",
+  true,
+  []
+ ]
+]
