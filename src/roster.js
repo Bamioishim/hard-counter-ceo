@@ -81,7 +81,7 @@ export const ROSTER = [
 
 export const RINGOUT_QUIPS = ['SIT DOWN!', 'DELISTED!', 'LAID OFF!', 'RUGGED!', 'SEVERANCE DENIED!', 'SIT DOWN!', 'GOING TO ZERO!', 'SHAREHOLDERS NOTIFIED!'];
 
-// The four original Hard Counter fighters each have a hip-mounted lance. Every CEO inherits one archetype.
+// The four archetypes each have a hip-mounted lance. Every CEO inherits one archetype.
 export const ARCHETYPES = {
   THRUST: { from: 'VOID STRIKER', note: 'PRECISION / REACH. SIGNATURE IS A LONG LUNGE, FINISHER EXTENDS THE LANCE.' },
   SPIN: { from: 'PRISM MENACE', note: 'SPEED / COMBOS. SIGNATURE SPINS THE HIPS AND HITS BOTH SIDES.' },

@@ -63,7 +63,7 @@ function baseRig(o) {
     arm.add(box(0.17, 0.14, 0.2, o.hand ?? o.skin, 0, -0.46, 0));
     torso.add(arm); arms.push(arm);
   }
-  // Hard Counter archetype: the weapon is fixed to the hips, not held. It pivots at the belt.
+  // Archetype: the weapon is fixed to the hips, not held. It pivots at the belt.
   const weapon = new THREE.Group(); weapon.position.set(0.1, 0.5, 0.2); body.add(weapon);
   return { g, body, torso, head, legs, armBack: arms[0], armFront: arms[1], weapon };
 }
@@ -247,7 +247,7 @@ export function buildFighter(def) {
   return r;
 }
 
-// Weapon is hip-mounted (Hard Counter style): every move is a hip thrust, a hip swing or a body spin.
+// Weapon is hip-mounted : every move is a hip thrust, a hip swing or a body spin.
 const lerp = (a, b, k) => a + (b - a) * k;
 export function animate(r, p, time, dt) {
   const k = Math.min(1, dt * 20);

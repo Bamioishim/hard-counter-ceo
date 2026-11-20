@@ -1,10 +1,10 @@
-# HARD COUNTER: CEO EDITION
+# WINNIE ARENA
 
-A parody remake of **Hard Counter by [@0xileri](https://x.com/0xileri)**: an absurd 3D versus fighter where 8 tech/crypto CEO caricatures try to knock each other off a rooftop. Best of three, no health bars. Hits raise your knockback %, and leaving the roof loses the round.
+**Winnie Arena** is an absurd 3D versus fighter where 8 tech/crypto CEO caricatures try to knock each other off a rooftop. Best of three, no health bars. Hits raise your knockback %, and leaving the roof loses the round.
 
 Static Vite + Three.js app. No backend, no external assets, WebAudio sound effects.
 
-**Live:** https://hard-counter-ceo.vercel.app
+**Live:** https://winnie-arena.vercel.app
 
 ## Run it
 

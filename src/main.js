@@ -204,7 +204,7 @@ const nameOf = (i) => ROSTER[i === 0 ? S.p1 : S.p2].name;
 function onEvent(type, d) {
   const m = S.match;
   switch (type) {
-    case 'round': splash(`ROUND ${String(d.round).padStart(2, '0')}`, 'STAY ON THE ROOF. SEND THEM OFF.'); sfx.bell(); updatePips(); break;
+    case 'round': splash(`ROUND ${String(d.round).padStart(2, '0')}`, d.round === 1 ? 'WINNIE ARENA · STAY ON THE ROOF. SEND THEM OFF.' : 'STAY ON THE ROOF. SEND THEM OFF.'); sfx.bell(); updatePips(); break;
     case 'fight': splash('FIGHT!'); sfx.fight(); setTimeout(() => { if (S.match === m && m.phase === 'fight') hideSplash(); }, 700); break;
     case 'hit': {
       const col = d.m.fin ? '#d6ff3a' : d.heavy ? '#ff5d8f' : '#ffffff';
@@ -252,7 +252,7 @@ function shareText() {
   let line;
   if (S.mode === 'cpu') line = m.winner === 0 ? `I just ring-outed ${cap(l)} off a roof as ${cap(w)} 🏙️💥` : `${cap(w)} just ring-outed me off a roof. Avenge me 😤`;
   else line = `${cap(w)} just ring-outed ${cap(l)} off a roof 🏙️💥`;
-  return `${line} HARD COUNTER: CEO EDITION ${url}`;
+  return `${line} WINNIE ARENA ${url}`;
 }
 const cap = (s) => s.charAt(0) + s.slice(1).toLowerCase();
 async function share() {

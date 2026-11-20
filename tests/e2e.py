@@ -29,7 +29,7 @@ async def main():
         # --- select screen
         n = await pg.locator('.card').count(); check('8 roster cards', n == 8, n)
         check('title copy', 'ABSURD VERSUS FIGHTING' in await pg.inner_text('header'))
-        check('credit line', 'Hard Counter by @0xileri' in await pg.inner_text('footer'))
+        check('no credit line', 'Hard Counter' not in await pg.inner_text('footer') and 'ileri' not in await pg.inner_text('body'))
         for i, fid in enumerate(['elon','jensen','mark','jeff','vitalik','ansem','wale','sam']):
             await pg.evaluate(f"document.querySelectorAll('.card')[{i}].dispatchEvent(new MouseEvent('mouseenter'))")
             await pg.wait_for_timeout(500)
